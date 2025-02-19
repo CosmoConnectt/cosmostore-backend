@@ -1,12 +1,11 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
- "main": "server.js",
-"scripts": {
-  "dev": "nodemon server.js",
-  "start": "node server.js"
-},
-
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
   "type": "module",
   "dependencies": {
     "bcryptjs": "^2.4.3",
