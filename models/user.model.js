@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 //, { Types } removed (it was automatically added. Will see if i have to add it later)
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 
 const userSchema = new mongoose.Schema({
     name: {
